@@ -4,9 +4,11 @@ import { NavLink } from "react-router-dom";
 const SignedInLinks = (props) => {
   return (
     <div>
-      <li>
-        <NavLink to="/create">New Project</NavLink>
-      </li>
+      <li>Flashcards</li>
+      <li>Challenges</li>
+      <li>Rewards</li>
+      <li>Statistics</li>
+      <li>Settings</li>
       <li>
         <a href="/#">Log Out</a>
       </li>

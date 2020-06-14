@@ -28,26 +28,24 @@ class SignIn extends Component {
           <div className="card">
             <div className="card-content">
               <form onSubmit={this.handleSubmit}>
-                <div className="form-field">
+                <h5 className="white-text center-align">Sign In</h5>
+                <div className="input-field">
                   <label for="email">Email</label>
-                  <input
-                    type="text"
-                    id="email"
-                    placeholder="guest@guest.com"
-                    onChange={this.handleChange}
-                  />
+                  <input type="text" id="email" onChange={this.handleChange} />
                 </div>
 
-                <div className="form-field">
+                <div className="input-field">
                   <label for="password">Password</label>
                   <input
                     type="password"
                     id="password"
-                    placeholder="guest"
                     onChange={this.handleChange}
                   />
                 </div>
-                <br />
+
+                <div className="info">
+                  <p>For guests: guest@guest.com, guest</p>
+                </div>
 
                 <div className="form-field center-align">
                   <button className="btn-large red waves-effect waves-light">
