@@ -14,6 +14,11 @@ body {
   color: #fff;
 }
 
+/* Navbar */
+.nav-wrapper {
+  margin-bottom: 5%;
+}
+
 /* Sign up and sign in */
 .signIn {
   margin-top: 100px;
@@ -53,4 +58,15 @@ body {
 /* Dashboard */
 .card {
   color: black;
+}
+
+.card
+  .card-action
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating),
+.card-action span {
+  color: orange;
+  margin-right: 24px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
 }
